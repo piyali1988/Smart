@@ -1,6 +1,5 @@
 Description:
 
-Smart (in-Situ MApReduce liTe) is a MapReduce-like framework originally designed for in-situ scientific analytics.
 To maximize the performance in different in-situ scenarios, it can support two different in-situ modes: time sharing and space sharing.
 Time sharing mode aims to minimize the memory consumption of analytics, by avoiding extra data copy of simulation output, i.e., time step. This mode is generally preferred.
 Space sharing mode can support concurrent simulation and analytics on two separate groups of cores of each node.
